@@ -41,9 +41,9 @@ $("#an-obj-61 #indiv").hide();
 			}
 			
 $('#btnall').click(function(){	
- 	 $("#an-obj-11 #indiv").toggle("slow");
- 	 $("#an-obj-12 #indiv").toggle("slow");
-   $("#an-obj-13 #indiv").toggle("slow");				 
+ 	 $("#an-obj-11 #indiv").show("slow");
+ 	 $("#an-obj-12 #indiv").show("slow");
+   $("#an-obj-13 #indiv").show("slow");				 
 });	
 
 	$('#btn1').click(function(){	
@@ -61,13 +61,13 @@ $('#btnall').click(function(){
 	
 	
 	$('#btn3all').click(function(){	
-  $("#an-obj-31 #indiv").toggle("slow");
-	$("#an-obj-32 #indiv").toggle("slow");
-  $("#an-obj-33 #indiv").toggle("slow");	
-	$("#an-obj-34 #indiv").toggle("slow");	
-	$("#an-obj-35 #indiv").toggle("slow");	
-	$("#an-obj-36 #indiv").toggle("slow"); 
-	$("#an-obj-37 #indiv").toggle("slow");
+  $("#an-obj-31 #indiv").show("slow");
+	$("#an-obj-32 #indiv").show("slow");
+  $("#an-obj-33 #indiv").show("slow");	
+	$("#an-obj-34 #indiv").show("slow");	
+	$("#an-obj-35 #indiv").show("slow");	
+	$("#an-obj-36 #indiv").show("slow"); 
+	$("#an-obj-37 #indiv").show("slow");
 });	
 
 	$('#btn31').click(function(){	
