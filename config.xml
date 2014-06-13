@@ -45,7 +45,7 @@ A list of available plugins are available at https://build.phonegap.com/docs/plu
 <!-- Spotlight Icon -->
 <icon src="icon.png" gap:platform="ios" width="40" height="40" />
 <icon src="icon.png" gap:platform="ios" width="80" height="80" />
-iOS 6.1
+
 
 <!-- iPhone / iPod Touch -->
 <icon src="icon.png" gap:platform="ios" width="57" height="57" />

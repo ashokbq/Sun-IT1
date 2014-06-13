@@ -18,11 +18,34 @@ $("#an-obj-61 #indiv").hide();
 
 
 		$(document).ready(function(e) {
+			
+ $(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 300,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 300,
+
+				closeClick : true,
+				
+				arrows :false,
+				
+				helpers : {
+					overlay : null
+				}
+			});			
 			if('#page4.ui-page-active' ){
       	$("#an-scene-3").addClass('run t-0');
 			}
 			
-			
+$('#btnall').click(function(){	
+ 	 $("#an-obj-11 #indiv").toggle("slow");
+ 	 $("#an-obj-12 #indiv").toggle("slow");
+   $("#an-obj-13 #indiv").toggle("slow");				 
+});	
+
 	$('#btn1').click(function(){	
   	 $("#an-obj-11 #indiv").toggle("slow");
 		 	 
@@ -35,6 +58,18 @@ $("#an-obj-61 #indiv").hide();
      $("#an-obj-13 #indiv").toggle("slow");
 		
   });
+	
+	
+	$('#btn3all').click(function(){	
+  $("#an-obj-31 #indiv").toggle("slow");
+	$("#an-obj-32 #indiv").toggle("slow");
+  $("#an-obj-33 #indiv").toggle("slow");	
+	$("#an-obj-34 #indiv").toggle("slow");	
+	$("#an-obj-35 #indiv").toggle("slow");	
+	$("#an-obj-36 #indiv").toggle("slow"); 
+	$("#an-obj-37 #indiv").toggle("slow");
+});	
+
 	$('#btn31').click(function(){	
      $("#an-obj-31 #indiv").toggle("slow");
 

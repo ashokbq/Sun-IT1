@@ -8,6 +8,7 @@
 <title>sunIT</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="assets/jquery.mobile-1.0a4.1.min.css"/>
+<link rel="stylesheet" type="text/css" href="assets/jquery.fancybox.css" media="screen" />
 </head>
 <body style="margin:0; height: 100%;">
 <article id="page1" data-role="page">
@@ -28,8 +29,19 @@
   <ol>
    <li id="an-scene-1" >
     <div class="an-stage">
-     <div id="an-obj-4"><div><img  height="768" width="1024"  src="assets/slide2.png"></div></div>
-  
+     <div id="an-obj-logo">
+      <a  class="fancybox-effects-d" rel="fancybox-button" href="assets/logo-x.png" title=" " data-ajax="false" >
+       <img src="assets/logo.png" width="177" height="87" class="centerimg"/>
+      </a>
+     </div>
+     <div id="an-obj-4"><div><img  height="768" width="1024"  src="assets/slide2bg.png"></div></div>
+     <div id="an-obj-all">
+      <form class="page12_btnall">
+       <div class="btngraph">
+        <input type="button" name="btnall" id="btnall" />
+       </div>
+      </form>
+     </div>
      <div id="an-obj-41">
       <form class="page12_btn1">
        <div class="btngraph">
@@ -73,7 +85,19 @@
   <ol>
    <li id="an-scene-2" >
     <div class="an-stage">
+     <div id="an-obj-logo1">
+      <a  class="fancybox-effects-d" rel="fancybox-button" href="assets/logo-x.png" title=" " data-ajax="false" >
+       <img src="assets/logo.png" width="177" height="87" class="centerimg"/>
+      </a>
+     </div>
      <div id="an-obj-5"><div><img  height="768" width="1024"  src="assets/slide3bg.png"></div></div>
+     <div id="an-obj-pg3all">
+      <form class="page13_btnall">
+       <div class="btngraph">
+        <input type="button" name="btn3all" id="btn3all" />
+       </div>
+      </form>
+     </div>
      <div id="an-obj-51">
       <form class="page32_btn1">
        <div class="btngraph">
@@ -186,6 +210,11 @@
   <ol>
    <li id="an-scene-3" >
     <div class="an-stage">
+      <div id="an-obj-logo2">
+      <a  class="fancybox-effects-d" rel="fancybox-button" href="assets/logo-x.png" title=" " data-ajax="false" >
+       <img src="assets/logo.png" width="177" height="87" class="centerimg"/>
+      </a>
+     </div>
      <div id="an-obj-6"><div><img  height="768" width="1024"  src="assets/slide4bg.png"></div></div>
      <div id="an-obj-7"><div><img  height="166" width="207"  src="assets/slide4_1.png"></div></div>
      <div id="an-obj-8"><div><img  height="166" width="207"  src="assets/slide4_2.png"></div></div>
@@ -213,5 +242,6 @@
 <script src="assets/jquery-ui-1.9.2.js"></script>
 <script type="text/javascript" src="controller.js"></script>
 <script src="assets/script.js"></script>
+<script type="text/javascript" src="assets/jquery.fancybox.js"></script>
 </body>
 </html>
